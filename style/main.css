@@ -1,12 +1,26 @@
 body {
 	background-color: azure;
 	color: dodgerblue;
-	font-family: helvetica;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
 
-	h1 {
-		font-size: 25px;
-		}
-	p {
-		font-size: 25px;
-	}
+h1 {
+	font-size: 25px;
+}
+img {
+	vertical-align: middle;
+	height: 250px;
+}
+#slogan {
+	font-style: italic;
+}
+#variety {
+	text-decoration: underline;
+}
+ul {
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100px;
+  	text-align: left;
 }
