@@ -1,0 +1,90 @@
+body {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	width: 1098px;
+	margin: auto 0;
+	background-color: AliceBlue;
+}
+
+#logo {
+	display: inline-block;
+	margin: 1em;
+	width: 350px;
+	float: left;
+}
+
+#social {
+	display: inline-block;
+/*	margin: 1em;*/
+	width: 150px;
+	float: right;
+	margin-top: 0;
+}
+
+p {
+	margin: 1em;
+	clear: both;
+	width: 1098px;
+}
+
+nav {
+	text-align: left;
+/*	display: inline-block;*/
+}
+
+hr {
+	margin: none;
+}
+
+nav a {
+	text-decoration: none;
+/*	background-color: red;*/
+	color: black;
+	font-size: 1.2em;
+	padding-right: 1em;
+	margin: .2em 1em;
+	border-right: 1px solid black;
+	display: block;
+	float: left;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#center {
+	border: 1px solid black;
+	width: 1098px;
+	margin: 1em;
+	display: block;
+
+}
+
+/*#nav {
+	text-align: center;
+}*/
+
+.header {
+	font-size: 1.5em;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 1em;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	font-size: .8em;
+}
