@@ -1,55 +1,54 @@
 body {
 	font-family: Georgia, serif;
 	font-size: 18px;
-	width: 1098px;
-	margin: auto 0;
 	background-color: AliceBlue;
 }
 
+.centeralign {
+	margin: 0 auto;
+	width: 1098px;
+}
+
 #logo {
-	display: inline-block;
-	margin: 1em;
 	width: 350px;
 	float: left;
 }
 
 #social {
-	display: inline-block;
-/*	margin: 1em;*/
 	width: 150px;
 	float: right;
-	margin-top: 0;
+	margin-top: 105px;
 }
 
 p {
-	margin: 1em;
+	padding-top: 15px;
 	clear: both;
-	width: 1098px;
 }
 
 nav {
 	text-align: left;
-/*	display: inline-block;*/
-}
-
-hr {
-	margin: none;
+	width: 1098px;
+	margin: 0 auto;
 }
 
 nav a {
 	text-decoration: none;
-/*	background-color: red;*/
 	color: black;
 	font-size: 1.2em;
-	padding-right: 1em;
-	margin: .2em 1em;
+/*	padding-right: 1em;
+	margin: .2em 1em;*/
 	border-right: 1px solid black;
 	display: block;
 	float: left;
+	padding: 0 2em;
 }
 
 nav a:hover {
-	font-weight: bold;
+	color: #0080bd;
+	background-image: url("..//images/bike.jpg");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 15px 2px;
 }
 
 .clearfix:after {
@@ -63,18 +62,14 @@ nav a:hover {
 
 #center {
 	border: 1px solid black;
-	width: 1098px;
-	margin: 1em;
 	display: block;
 
 }
 
-/*#nav {
-	text-align: center;
-}*/
-
 .header {
 	font-size: 1.5em;
+	margin: 0 auto;
+	width: 1098px;
 }
 
 footer {
@@ -88,3 +83,10 @@ footer a {
 	color: black;
 	font-size: .8em;
 }
+
+footer a:hover {
+	color: #0080bd;
+}
+
+
+
