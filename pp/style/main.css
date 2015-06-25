@@ -48,18 +48,39 @@ p {
 	margin: 0px;
 }
 
+#blurb {
+	font-size: 1.7em;
+	line-height: 1.3em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .squares {
 	height: 9em;
 	width: 9em;
 	border: .1em solid black;
-	background-color: blue;
+/*	background-color: blue;*/
 	float: left;
 	margin: .1em;
+}
+
+#paintingdog {
+	background-image: url("http://stephschiller.com/artwork/2988672_molly_SOLD.html");
 }
 
 #wrapper {
 	width: 51em;
 	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	margin-top: 3em;
+	clear: both;
+	margin-top: 13m;
 }
 
 @media only screen and (max-width: 575px) {
